@@ -20,7 +20,7 @@ The code depends on the python port of the ida microcode api. The script was tes
 
 ## Usage
 
-Simply load the `emotet_unflatten.py` script via `File->Script File ..` in Ida Pro. Next, load the plugin by issueing the following commands in the interactive ida python window:
+Simply load the `pyhexraysdeob.py` script via `File->Script File ..` in Ida Pro. Next, load the plugin by issueing the following commands in the interactive ida python window:
 
 ```python
 unflattener = PLUGIN_ENTRY()
